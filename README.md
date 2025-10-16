@@ -1,4 +1,4 @@
-# NYC 90s-00s Hip-Hop Data Collection & Dashboard (Python + Spotify API, Tableau)
+# NYC 90s-00s Hip-Hop Artists (Python + Spotify API, Tableau)
 
 
 A **personal data project** exploring some of my favorite 90s and 2000s New York City hip-hop artists.  
