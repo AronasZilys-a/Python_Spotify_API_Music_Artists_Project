@@ -1,4 +1,5 @@
-# NYC Hip-Hop Dashboard (90s–00s)
+# NYC 90s-00s Hip-Hop Data Collection & Dashboard (Python + Spotify API, Tableau)
+
 
 A **personal data project** exploring some of my favorite 90s and 2000s New York City hip-hop artists.  
 This project collects data using the **Spotify Web API** and Python, and I plan to build a **Tableau dashboard** to visualize the music, albums, and top tracks by borough.
@@ -27,6 +28,3 @@ This project collects data using the **Spotify Web API** and Python, and I plan 
 
 All data is saved in `/data` as Excel files.
 
----
-   git clone https://github.com/<your-username>/nyc-hiphop-dashboard.git
-   cd nyc-hiphop-dashboard
