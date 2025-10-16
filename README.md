@@ -2,7 +2,7 @@
 
 
 A **personal data project** exploring some of my favorite 90s and 2000s New York City hip-hop artists.  
-This project collects data using the **Spotify Web API** and Python, and I plan to build a **Tableau dashboard** to visualize the music, albums, and top tracks by borough.
+This project **collects data using the Spotify Web API and Python** and includes a **completed Tableau dashboard** visualizing the artists’ music, albums, and top tracks by borough.
 
 ---
 
