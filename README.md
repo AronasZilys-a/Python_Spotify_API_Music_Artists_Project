@@ -40,8 +40,11 @@ The flow **standardizes data, removes inconsistencies and duplicates, merges tab
 
 Below is a preview of the interactive dashboard visualizing NYC Hip-Hop data:
 
-![Spotify NYC Hip-Hop Dashboard](images/dashboard_placeholder.png)
+![Spotify NYC Hip-Hop Dashboard](Dashboard/dashboard_view_2.png)
 
-You can view and interact with the full dashboard here:  
+
+### You can view and interact with the full dashboard here:  
 [New York City Hip-Hop Legacy Dashboard](https://public.tableau.com/app/profile/aronas.zilys/viz/NewYorkCityHipHopLegacy/MainPage)
+
+
 
