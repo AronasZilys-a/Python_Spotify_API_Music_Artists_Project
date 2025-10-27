@@ -5,18 +5,6 @@ This project **collects data using the Spotify Web API and Python** and includes
 
 ---
 
-## 🎤 Artists by Borough
-
-| Borough | Artist(s) |
-|----------|------------|
-| Brooklyn | The Notorious B.I.G., Fabolous |
-| Queens | Nas, Mobb Deep |
-| Bronx | Fat Joe |
-| Staten Island | Wu-Tang Clan |
-| Harlem / Manhattan | Cam’ron |
-
----
-
 ## 📊 Data Collected
 
 1. **Artist Info** – Followers, genres, Spotify URL, profile image  
@@ -27,27 +15,24 @@ All data is saved in `/data` as Excel files.
 
 ---
 
-## 🗂 Project Flow Diagram
+## 🗂 Project Architecture
 
-Below is a placeholder for a project flow diagram showing the overall pipeline:
+Overal project flow pipeline:
 
 - Python scripts → Spotify API → Data collection  
 - Data cleaning & transformation → Tableau Prep  
 - Data visualization → Tableau dashboard → Tableau Public  
 
-![Project Flow Diagram](images/project_flow_placeholder.png)
+![Project Flow Diagram](Project_Architecture/Spotify_API_Diagram.png)
 
 ---
 
 ## 🛠 Data Preparation Flow (Tableau Prep)
 
-This section explains the data cleaning and merging workflow used in this project. The flow **standardizes data, removes inconsistencies and duplicates, merges tables to enrich the dataset, and pivots fields**, preparing the data for analysis and visualization.
+The flow **standardizes data, removes inconsistencies and duplicates, merges tables to enrich the dataset, and pivots fields**, preparing the data for analysis and visualization.
 
 ![Tableau Prep Flow](Tableau_Prep_Flow/data_flow.png)
 
-**Notes:**  
-- This screenshot is for documentation purposes.  
-- Paths in the flow are relative to the project folder.
 
 ---
 
