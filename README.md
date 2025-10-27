@@ -23,7 +23,7 @@ Overal project flow pipeline:
 - Data cleaning & transformation → Tableau Prep  
 - Data visualization → Tableau dashboard → Tableau Public  
 
-![Project Flow Diagram](Project_Architecture/Spotify_API_Diagram.png)
+<img src="Project_Architecture/Spotify_API_Diagram.png" alt="Project Flow Diagram" width="450">
 
 ---
 
