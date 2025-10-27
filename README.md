@@ -15,7 +15,6 @@ This project **collects data using the Spotify Web API and Python** and includes
 | Bronx | Fat Joe |
 | Staten Island | Wu-Tang Clan |
 | Harlem / Manhattan | Cam’ron |
-| Yonkers | Jadakiss |
 
 ---
 
