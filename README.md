@@ -40,7 +40,8 @@ The flow **standardizes data, removes inconsistencies and duplicates, merges tab
 
 Below is a preview of the interactive dashboard visualizing NYC Hip-Hop data:
 
-![Spotify NYC Hip-Hop Dashboard](Dashboard/dashboard_view_2.png)
+<img src="Dashboard/dashboard_view_2.png" alt="Spotify NYC Hip-Hop Dashboard" width="550">
+
 
 
 ### You can view and interact with the full dashboard here:  
