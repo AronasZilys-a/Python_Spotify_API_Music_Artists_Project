@@ -40,7 +40,7 @@ if not client_id or not client_secret:
     raise ValueError("Spotify CLIENT_ID and CLIENT_SECRET must be set in .env")
 
 # ---------------------------
-# Function to get Spotify API token
+# get Spotify API token
 # ---------------------------
 def get_token():
     """
