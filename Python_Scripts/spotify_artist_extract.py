@@ -16,14 +16,8 @@ Dependencies:
     - python-dotenv
     - requests
     - pandas
-    - openpyxl (for Excel export)
+    - openpyxl
 
-Usage:
-    1. Create a `.env` file in the same directory with the following:
-        CLIENT_ID=your_spotify_client_id
-        CLIENT_SECRET=your_spotify_client_secret
-    2. Run the script:
-        python spotify_data_extract.py
 """
 
 # ---------------------------
@@ -46,7 +40,7 @@ if not client_id or not client_secret:
     raise ValueError("Spotify CLIENT_ID and CLIENT_SECRET must be set in .env")
 
 # ---------------------------
-# Function to get Spotify API token
+# get Spotify API token
 # ---------------------------
 def get_token():
     """
@@ -71,7 +65,7 @@ def get_token():
     return response.json()["access_token"]
 
 # ---------------------------
-# Function to fetch artist information
+# fetch artist information
 # ---------------------------
 def get_artist_info(artist_name, headers):
     """
@@ -129,7 +123,7 @@ if __name__ == "__main__":
         if info:
             all_data.append(info)
 
-    # Save results to Excel
+    # Save
     df = pd.DataFrame(all_data)
     output_file = "nyc_hiphop_artists_info.xlsx"
     df.to_excel(output_file, index=False)
