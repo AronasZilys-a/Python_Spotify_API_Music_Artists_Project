@@ -20,10 +20,6 @@ Dependencies:
     - numpy
     - openpyxl (for Excel export)
 
-Usage:
-    1. Ensure the input Excel file exists with a column 'track_url' or 'track_id'.
-    2. Run:
-        python generate_random_audio_features.py
 """
 
 # ---------------------------
