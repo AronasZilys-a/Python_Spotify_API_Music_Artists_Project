@@ -16,14 +16,7 @@ Dependencies:
     - requests
     - pandas
     - openpyxl (for Excel export)
-
-Usage:
-    1. Ensure a `.env` file exists with:
-        CLIENT_ID=your_spotify_client_id
-        CLIENT_SECRET=your_spotify_client_secret
-    2. Ensure `nyc_hiphop_artists.xlsx` exists with columns 'name' and 'spotify_id'.
-    3. Run:
-        python spotify_album_extract.py
+    
 """
 
 # ---------------------------
