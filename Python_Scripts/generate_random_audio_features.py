@@ -2,7 +2,7 @@
 generate_random_audio_features.py
 ---------------------------------
 This script generates random audio features for a list of tracks in an Excel file.
-It is intended for testing, demonstration, or visualization purposes when actual
+It is intended for testing, demonstration, or visualisation purposes when actual
 Spotify audio features are not available.
 
 Each track will have 8 features:
@@ -52,7 +52,7 @@ if __name__ == "__main__":
     # Load the Excel file
     df = pd.read_excel(INPUT_FILE)
 
-    # Initialize new DataFrame with track URLs (or IDs)
+    # DataFrame with track URLs
     new_df = pd.DataFrame()
     new_df['track_url'] = df['track_url']  # Change to 'track_id' if preferred
 
@@ -61,6 +61,6 @@ if __name__ == "__main__":
         # Random decimals between 0 and 1, rounded to 1 decimal place
         new_df[feature] = np.round(np.random.rand(len(new_df)), 1)
 
-    # Save the new DataFrame to Excel
+    # Save to Excel
     new_df.to_excel(OUTPUT_FILE, index=False)
     print(f"New file '{OUTPUT_FILE}' created successfully with 1-decimal features!")
