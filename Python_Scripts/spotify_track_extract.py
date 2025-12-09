@@ -21,13 +21,6 @@ Dependencies:
     - pandas
     - openpyxl (for Excel export)
 
-Usage:
-    1. Ensure a `.env` file exists with:
-        CLIENT_ID=your_spotify_client_id
-        CLIENT_SECRET=your_spotify_client_secret
-    2. Ensure `nyc_hiphop_artist_albums.xlsx` exists with the required columns.
-    3. Run:
-        python spotify_track_extract.py
 """
 
 # ---------------------------
@@ -52,7 +45,7 @@ if not client_id or not client_secret:
     raise ValueError("Spotify CLIENT_ID and CLIENT_SECRET must be set in .env")
 
 # ---------------------------
-# Function to get Spotify API token
+# get Spotify API token
 # ---------------------------
 def get_token():
     """
