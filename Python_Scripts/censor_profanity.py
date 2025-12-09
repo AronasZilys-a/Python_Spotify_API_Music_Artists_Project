@@ -3,12 +3,12 @@ censor_profanity.py
 -------------------
 This script cleans the 'track_name' column in a merged album-tracks Excel file
 by censoring profanity using the 'better_profanity' library. It is intended for
-cleaning track names before visualization or analysis.
+cleaning track names before analysis.
 
 Dependencies:
     - pandas
     - better_profanity
-    - openpyxl (for Excel read/write)
+    - openpyxl
 
 Usage:
     1. Ensure the input Excel file exists with a 'track_name' column.
@@ -47,6 +47,6 @@ if __name__ == "__main__":
     else:
         print(f"Column '{COLUMN_TO_CLEAN}' not found in Excel file!")
 
-    # Save the cleaned dataset
+    # Save the clean dataset
     df.to_excel(OUTPUT_FILE, index=False)
     print(f"Cleaned dataset saved as: {OUTPUT_FILE}")
