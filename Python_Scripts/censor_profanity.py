@@ -10,10 +10,6 @@ Dependencies:
     - better_profanity
     - openpyxl
 
-Usage:
-    1. Ensure the input Excel file exists with a 'track_name' column.
-    2. Run:
-        python clean_track_names.py
 """
 
 # ---------------------------
